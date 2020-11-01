@@ -4,7 +4,7 @@
   "description": "Module to retrieve ps5 pre-order and availability status",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test is specified\""
   },
   "repository": {
     "type": "git",
