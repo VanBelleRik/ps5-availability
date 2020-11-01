@@ -165,12 +165,10 @@ class Page {
         if (result) {
           logger.info(`PS5 unit is available at '${this.retailer}'`);
           this.job.result = true;
-          console.timeEnd('checkAvailability()');
           return true;
         } else {
           logger.info(`PS5 unit is not available at '${this.retailer}'`);
           this.job.result = false;
-          console.timeEnd('checkAvailability()');
           return false;
         }
       } else {
