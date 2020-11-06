@@ -1,4 +1,5 @@
 const colors = require('colors');
+const retailers = ['bolnl', 'coolbluenl', 'mediamarktnl'];
 
 var Helper = {
     getIntro: function () {
@@ -23,7 +24,13 @@ var Helper = {
             ${'Version'}         :       ${'1.0.0'}
         
             `;
-    }
+    },
+    getRetailers: function () {
+        return retailers;
+    },
+    hasRetailer: function (retailer) {
+        return retailers.includes((retailer));
+    },
 }
 
 module.exports = Helper;
